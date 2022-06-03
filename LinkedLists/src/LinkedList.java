@@ -70,6 +70,12 @@ public abstract class LinkedList<T> {
     public LinkedList() { head = null; }
 
     /**
+     * Retrieves the first node in a linked list
+     * @return Start of linked list
+     */
+    public Node<T> getHead() { return this.head; }
+
+    /**
      * Inserts a node with the <code>value</code> of type <code>T</code> at the end of the linked list
      * @param value Value to insert into linked list as a node
      */
